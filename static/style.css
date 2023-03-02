@@ -318,15 +318,27 @@ p{
     background-color: #ef8700;
 }
 
-.footer{
-    padding: 30px 0 30px 0;
-    background-color: #ff9000;
+hr{
+    border: 1px solid #EEE;
 }
 
-.footer-content{
+.footer{
+    padding: 30px 0;
+}
+
+.footer-links{
     display: flex;
     justify-content: space-between;
-    margin-top: 30px;
+}
+
+.link h3{
+    font-size: 20px;
+    color: #1d1d1b;
+    margin-top: 20px;
+}
+
+.socials img{
+    margin-right: 15px;
 }
 
 .link a{
